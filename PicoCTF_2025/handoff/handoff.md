@@ -1,4 +1,4 @@
-# handoff
+# handoff by PM
 - [Challenge Information](#challenge-information)
 - [Explanation](#explanation)
 - [Summary](#summary)
@@ -23,7 +23,7 @@ Connect to the program with netcat:
 
 `$ nc shape-facility.picoctf.net 50924`
 
-Challenge Link: [https://play.picoctf.org/events/74/challenges/486](https://play.picoctf.org/events/74/challenges/486)
+Challenge Link: [https://play.picoctf.org/practice/challenge/486](https://play.picoctf.org/practice/challenge/486)
 
 ## Explanation
 
