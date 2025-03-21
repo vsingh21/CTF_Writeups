@@ -12,7 +12,7 @@ tags:
   - picoCTF 2025
   - picoCTF
 description:
-  A writeup for the binary exploitation challenge handoff
+  A writeup for the binary exploitation challenge: handoff
 ---
 
 ## Table of contents
