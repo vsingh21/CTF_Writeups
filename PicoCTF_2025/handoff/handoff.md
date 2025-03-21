@@ -1,9 +1,21 @@
-# handoff by PM
-- [Challenge Information](#challenge-information)
-- [Explanation](#explanation)
-- [Summary](#summary)
-- [Full Solution](#full-solution)
-- [References](#references)
+---
+author: Viraj Singh
+pubDatetime: 2025-03-21T05:17:05+0000
+modDatetime: 2025-03-21T05:17:05+0000
+title: picoCTF 2025 - handoff
+slug: picoctf-2025-handoff
+featured: true
+draft: false
+tags:
+  - pwn
+  - rev
+  - picoCTF2025
+  - picoCTF
+description:
+  A writeup for the binary exploitation challenge handoff
+---
+
+## Table of contents
 
 ## Challenge-Information 
 
