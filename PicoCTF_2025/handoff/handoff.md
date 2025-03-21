@@ -9,7 +9,7 @@ draft: false
 tags:
   - pwn
   - rev
-  - picoCTF2025
+  - picoCTF 2025
   - picoCTF
 description:
   A writeup for the binary exploitation challenge handoff
