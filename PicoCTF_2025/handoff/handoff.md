@@ -1,7 +1,7 @@
 ---
 author: Viraj Singh
-pubDatetime: 2025-03-21T05:17:05+0000
-modDatetime: 2025-03-21T05:17:05+0000
+pubDatetime: 2025-03-21T01:17:05Z
+modDatetime: 2025-03-21T01:17:05Z
 title: picoCTF 2025 - handoff
 slug: picoctf-2025-handoff
 featured: true
