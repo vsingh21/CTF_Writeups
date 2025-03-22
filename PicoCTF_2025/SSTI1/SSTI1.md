@@ -1,7 +1,7 @@
 ---
 author: Nishanth Jadav
-pubDatetime: 2025-03-22T12:38:05Z
-modDatetime: 2025-03-22T12:38:05Z
+pubDatetime: 2025-03-22T04:38:05Z
+modDatetime: 2025-03-22T04:38:05Z
 title: picoCTF 2025 - SSTI1
 slug: picoctf-2025-SSTI1
 featured: true
