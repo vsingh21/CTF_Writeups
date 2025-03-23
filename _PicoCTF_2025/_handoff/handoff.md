@@ -3,7 +3,6 @@ author: Viraj Singh
 pubDatetime: 2025-03-21T01:17:05Z
 modDatetime: 2025-03-21T01:17:05Z
 title: picoCTF 2025 - handoff
-slug: pico-ctf-2025/handoff/picoctf-2025-handoff
 featured: true
 draft: false
 tags:
