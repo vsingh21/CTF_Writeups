@@ -3,7 +3,6 @@ author: Nishanth Jadav
 pubDatetime: 2025-03-22T04:38:05Z
 modDatetime: 2025-03-22T04:38:05Z
 title: picoCTF 2025 - SSTI1
-slug: pico-ctf-2025/ssti-1/picoctf-2025-SSTI1
 featured: true
 draft: false
 tags:
