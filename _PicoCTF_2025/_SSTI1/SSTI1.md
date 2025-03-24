@@ -24,9 +24,6 @@ Author: VENAX
 
 Challenge Link: https://play.picoctf.org/practice/challenge/492
 
-## Explanation
-# CTF Write-Up: Jinja2 Web Exploit
-
 ## Background
 
 In this CTF challenge, the goal was to exploit a web application using Jinja2 template injection. Jinja2 is a common templating engine for Python that allows developers to inject variables and execute Python code within templates. Exploiting Jinja2 vulnerabilities often involves creating payloads that manipulate the template engine to execute arbitrary commands.
