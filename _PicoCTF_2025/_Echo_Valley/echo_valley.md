@@ -206,6 +206,7 @@ pwnlib.fmtstr.fmtstr_payload(offset, writes, numbwritten=0, write_size='byte') �
 Parameters:
 - **offset** – the first formatter’s offset you control
 - **writes** – dict with addr, value `{addr: value, addr2: value2}`
+
 Returns: The payload in order to do needed writes
 
 To find the offset we can input some random text and then input some `%x` to see when we see out input on the stack.
