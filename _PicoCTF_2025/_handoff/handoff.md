@@ -7,20 +7,22 @@ featured: true
 draft: false
 tags:
   - pwn
-  - rev
   - picoCTF 2025
   - picoCTF
+  - hard
+  - shellcode injection
+  - ROP
 description:
   A writeup for the PicoCTF 2025 binary exploitation challenge, handoff.
 ---
 
 ## Table of contents
 
-## Challenge-Information 
+## Challenge Information 
 
 400 Points
 
-Tags: picoCTF 2025, Binary Exploitation, browser_webshell_solvable
+Tags: Hard, picoCTF 2025, Binary Exploitation, browser_webshell_solvable
 
 Author: SKRUBLAWD
 
@@ -293,7 +295,7 @@ jmp_bytes = b'\xe9\x2f\xfd\xff\xff'
 ```
 ## Summary
 We can input shellcode in the `msg` char array of the first entry. Then we can take advantage of the buffer overflow vulnerability and overwrite the return address and modify it to the address of the `jmp rax` ROP gadget. Since `$rax` contains the address of the beginning of the feedback buffer, we need to input `jmp_bytes` before we overflow. 
-## Full-Solution
+## Full Solution
 ```python
 from pwn import *
 
