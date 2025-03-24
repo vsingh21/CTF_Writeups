@@ -9,7 +9,7 @@ tags:
   - web
   - picoCTF2025
   - easy
-description: A writeup for the web exploitation challenge SSTI1
+description: A writeup for the PicoCTF 2025 web exploitation challenge, SSTI1.
 ---
 
 ## Table of contents
